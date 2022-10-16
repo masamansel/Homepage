@@ -94,6 +94,14 @@ height: 250px;
 border: 5px solid rgb(34, 31, 31);
 border-radius: 10px;
 }
+.card img:hover{
+    width: 270px;
+height: 270px;
+transition: 0.2s ;
+box-shadow: 10px 10px 23px 6px rgba(0,0,0,0.47);
+-webkit-box-shadow: 10px 10px 23px 6px rgba(0,0,0,0.47);
+-moz-box-shadow: 10px 10px 23px 6px rgba(0,0,0,0.47);
+}
 #quote{
     background-color: #d0d0d1;
     display: flex;
@@ -160,3 +168,4 @@ footer{
     color:aliceblue;
    word-spacing: 3px;
 }
+
