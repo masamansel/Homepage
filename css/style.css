@@ -1,0 +1,162 @@
+body{
+    margin:0px;
+    height:100vh;
+    font-family: sans-serif;
+    background-color: #a19c9c;
+}
+#header{
+    padding:10px;
+    display: flex;
+    background-color: #1f2937;
+justify-content: space-around;
+align-items: center;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    gap:40px;
+   
+}
+ul a{
+font-size: 1.4em;
+text-decoration: none;
+color: white;
+
+}
+#header img{
+    width:50px;
+    
+}
+#body{
+    background-color: #151b24;
+    display: flex;
+    padding: 16px;
+    height:400px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+#text{
+    width:600PX;
+    height: 337px;
+}
+#text p:nth-child(1){
+    font-weight: bolder;
+    font-size: 48px;
+    color:white;
+}
+#text p:nth-child(2){
+    color: lightgray;
+    font-size: 1.2em;
+    margin-top: -40px;
+}
+
+#body img{
+width:600px;
+
+}
+button{
+    padding: 10px;
+    background-color: rgb(37, 46, 46);
+    border:1px solid gray;
+    border-radius:6px;
+    color:white;
+  font-size: 14px;
+    cursor: pointer;
+}
+
+#card{
+    display: flex;
+  justify-content: center;
+  gap: 100px;
+    padding: 16px;
+   margin-bottom: 50px;
+    
+}
+#tit{
+    text-align: center;
+   font-weight: bolder;
+   font-size: 36px;
+}
+.card{
+    height: 400px;
+    width: 300px;
+    text-align: center;
+}
+.card p{
+    font-size:1.2em;
+    
+}
+
+.card img{
+width: 250px;
+height: 250px;
+border: 5px solid rgb(34, 31, 31);
+border-radius: 10px;
+}
+#quote{
+    background-color: #d0d0d1;
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ height: 300px;
+}
+#quote i{
+    font-size: 36px;
+    color: #1f2937;
+    width: 700px;
+}
+#quote b{
+   font-size: 20px;
+   width: 700px;
+   text-align: right;
+}
+#sign{
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:60px ;
+}
+#act{
+    background-color: #1f2937;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    width:900px;
+    border-radius:10px ;
+    align-items: center;
+    height: 60px;
+}
+#al p{
+    color: rgb(187, 178, 178); 
+}
+
+#act button{
+    background-color: #3b82f6;
+    color: white;
+    width:90px;
+    height: 50px;
+}
+#al{
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+}
+#al b{
+   margin-bottom: -10px;
+    font-size: 1.2em;
+color: rgb(196, 190, 190);
+}
+footer{
+    background-color: #1f2937;
+    padding:20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    color:aliceblue;
+   word-spacing: 3px;
+}
